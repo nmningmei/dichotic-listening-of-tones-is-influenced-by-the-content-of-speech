@@ -3,7 +3,11 @@
 # Figure 3
 ![fig3](https://github.com/nmningmei/dichotic-listening-of-tones-is-influenced-by-the-content-of-speech/blob/master/figures/figure%203.jpeg)
 
+there was no main effect of experiment, F(1,41) = 0.000, p = 1.000000, eta square = 0.0
+
 there was a main effect of side of ears, F(1,41) = 9.897, p = 0.003079, eta square = 0.194
+
+there was no main effect of interaction, F(1,41) = 0.189, p = 0.666131, eta square = 0.005
 
 A post-hoc comparison between the left and right ear effect within each experiment showed that there were significant differences between the left ear and right ear in each experiment.
 
@@ -25,6 +29,8 @@ Apply a repeated measured ANOVA on correct rate as a factor of codition and side
 there was a main effect of condition, F(3,57) = 9.8560, p = 0.0000, corrected p = 0.0001, eta sqaure = 0.3420
 
 there was a main effect of side of ears, F(1,19) = 4.6410, p = 0.0443, corrected p = 0.0443, eta sqaure = 0.1960
+
+there was no main effect of interaction, F(3,57) = 1.1930, p = 0.3204, corrected p = 0.3177, eta sqaure = 0.0590
 
 From a post-hoc comparison within each main effect:
 
