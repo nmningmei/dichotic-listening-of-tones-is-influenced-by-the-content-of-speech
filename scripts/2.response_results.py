@@ -39,7 +39,7 @@ def star(x):
     else:
         return 'n.s.'
 order_x = ['Hummed\ntones',
-           'Simple voxel\ntones',
+           'Simple vowel\ntones',
            'CV Pseudo-word\ntones',
            'CV word\ntones']
 
@@ -192,7 +192,7 @@ fig.savefig(os.path.join(figures_dir,'figure 3.jpeg'),
 figure4_csv_name                = os.path.join(results_dir,'for_figure4.csv')
 df_figure_4                     = df_plot[df_plot['experiment'] == 'experiment2']
 df_figure_4.loc[:,'condition']  = df_figure_4['condition'].map({'hum' :'Hummed\ntones',
-                                                                'tone':'Simple voxel\ntones',
+                                                                'tone':'Simple vowel\ntones',
                                                                 'gi'  :'CV Pseudo-word\ntones',
                                                                 'di'  :'CV word\ntones'})
 df_figure_4.to_csv(figure4_csv_name,index = False)
@@ -330,7 +330,7 @@ df_figure_5['adjust']           = df_figure_5['condition'].map({'hum' :2,
 df_figure_5['adjust_LI']        = df_figure_5['LI'] * df_figure_5['adjust']
 
 df_figure_5.loc[:,'condition']  = df_figure_5['condition'].map({'hum' :'Hummed\ntones',
-                                                                'tone':'Simple voxel\ntones',
+                                                                'tone':'Simple vowel\ntones',
                                                                 'gi'  :'CV Pseudo-word\ntones',
                                                                 'di'  :'CV word\ntones'})
 df_figure_5.to_csv(figure5_csv_name,index = False)
