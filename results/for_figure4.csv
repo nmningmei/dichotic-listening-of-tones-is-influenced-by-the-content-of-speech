@@ -1,0 +1,321 @@
+experiment,condition,sub_name,side,correct_rate
+experiment2,"CV word
+tones",211,left,0.45
+experiment2,"CV word
+tones",212,left,0.3611111111111111
+experiment2,"CV word
+tones",213,left,0.45
+experiment2,"CV word
+tones",214,left,0.5666666666666667
+experiment2,"CV word
+tones",215,left,0.37222222222222223
+experiment2,"CV word
+tones",216,left,0.2388888888888889
+experiment2,"CV word
+tones",217,left,0.4
+experiment2,"CV word
+tones",218,left,0.4111111111111111
+experiment2,"CV word
+tones",219,left,0.3888888888888889
+experiment2,"CV word
+tones",220,left,0.4111111111111111
+experiment2,"CV word
+tones",221,left,0.49444444444444446
+experiment2,"CV word
+tones",222,left,0.5055555555555555
+experiment2,"CV word
+tones",223,left,0.4777777777777778
+experiment2,"CV word
+tones",224,left,0.4388888888888889
+experiment2,"CV word
+tones",225,left,0.4388888888888889
+experiment2,"CV word
+tones",226,left,0.43333333333333335
+experiment2,"CV word
+tones",227,left,0.2833333333333333
+experiment2,"CV word
+tones",228,left,0.39444444444444443
+experiment2,"CV word
+tones",229,left,0.3277777777777778
+experiment2,"CV word
+tones",230,left,0.5
+experiment2,"CV Pseudo-word
+tones",211,left,0.4888888888888889
+experiment2,"CV Pseudo-word
+tones",212,left,0.39444444444444443
+experiment2,"CV Pseudo-word
+tones",213,left,0.42777777777777776
+experiment2,"CV Pseudo-word
+tones",214,left,0.45555555555555555
+experiment2,"CV Pseudo-word
+tones",215,left,0.2388888888888889
+experiment2,"CV Pseudo-word
+tones",216,left,0.3
+experiment2,"CV Pseudo-word
+tones",217,left,0.5166666666666667
+experiment2,"CV Pseudo-word
+tones",218,left,0.4888888888888889
+experiment2,"CV Pseudo-word
+tones",219,left,0.43333333333333335
+experiment2,"CV Pseudo-word
+tones",220,left,0.29444444444444445
+experiment2,"CV Pseudo-word
+tones",221,left,0.6222222222222222
+experiment2,"CV Pseudo-word
+tones",222,left,0.5
+experiment2,"CV Pseudo-word
+tones",223,left,0.4
+experiment2,"CV Pseudo-word
+tones",224,left,0.5388888888888889
+experiment2,"CV Pseudo-word
+tones",225,left,0.4166666666666667
+experiment2,"CV Pseudo-word
+tones",226,left,0.5277777777777778
+experiment2,"CV Pseudo-word
+tones",227,left,0.4722222222222222
+experiment2,"CV Pseudo-word
+tones",228,left,0.42777777777777776
+experiment2,"CV Pseudo-word
+tones",229,left,0.3388888888888889
+experiment2,"CV Pseudo-word
+tones",230,left,0.6666666666666666
+experiment2,"Hummed
+tones",211,left,0.42777777777777776
+experiment2,"Hummed
+tones",212,left,0.4722222222222222
+experiment2,"Hummed
+tones",213,left,0.40555555555555556
+experiment2,"Hummed
+tones",214,left,0.4888888888888889
+experiment2,"Hummed
+tones",215,left,0.31666666666666665
+experiment2,"Hummed
+tones",216,left,0.5388888888888889
+experiment2,"Hummed
+tones",217,left,0.49444444444444446
+experiment2,"Hummed
+tones",218,left,0.5888888888888889
+experiment2,"Hummed
+tones",219,left,0.38333333333333336
+experiment2,"Hummed
+tones",220,left,0.39444444444444443
+experiment2,"Hummed
+tones",221,left,0.40555555555555556
+experiment2,"Hummed
+tones",222,left,0.5611111111111111
+experiment2,"Hummed
+tones",223,left,0.48333333333333334
+experiment2,"Hummed
+tones",224,left,0.42777777777777776
+experiment2,"Hummed
+tones",225,left,0.4222222222222222
+experiment2,"Hummed
+tones",226,left,0.7722222222222223
+experiment2,"Hummed
+tones",227,left,0.37222222222222223
+experiment2,"Hummed
+tones",228,left,0.4444444444444444
+experiment2,"Hummed
+tones",229,left,0.37777777777777777
+experiment2,"Hummed
+tones",230,left,0.5444444444444444
+experiment2,"Simple voxel
+tones",211,left,0.49444444444444446
+experiment2,"Simple voxel
+tones",212,left,0.46111111111111114
+experiment2,"Simple voxel
+tones",213,left,0.40555555555555556
+experiment2,"Simple voxel
+tones",214,left,0.5055555555555555
+experiment2,"Simple voxel
+tones",215,left,0.3111111111111111
+experiment2,"Simple voxel
+tones",216,left,0.5333333333333333
+experiment2,"Simple voxel
+tones",217,left,0.45555555555555555
+experiment2,"Simple voxel
+tones",218,left,0.8666666666666667
+experiment2,"Simple voxel
+tones",219,left,0.4444444444444444
+experiment2,"Simple voxel
+tones",220,left,0.5333333333333333
+experiment2,"Simple voxel
+tones",221,left,0.5055555555555555
+experiment2,"Simple voxel
+tones",222,left,0.5388888888888889
+experiment2,"Simple voxel
+tones",223,left,0.43333333333333335
+experiment2,"Simple voxel
+tones",224,left,0.48333333333333334
+experiment2,"Simple voxel
+tones",225,left,0.43333333333333335
+experiment2,"Simple voxel
+tones",226,left,0.5555555555555556
+experiment2,"Simple voxel
+tones",227,left,0.65
+experiment2,"Simple voxel
+tones",228,left,0.5
+experiment2,"Simple voxel
+tones",229,left,0.5166666666666667
+experiment2,"Simple voxel
+tones",230,left,0.43333333333333335
+experiment2,"CV word
+tones",211,right,0.4722222222222222
+experiment2,"CV word
+tones",212,right,0.4444444444444444
+experiment2,"CV word
+tones",213,right,0.3055555555555556
+experiment2,"CV word
+tones",214,right,0.3277777777777778
+experiment2,"CV word
+tones",215,right,0.29444444444444445
+experiment2,"CV word
+tones",216,right,0.6888888888888889
+experiment2,"CV word
+tones",217,right,0.4166666666666667
+experiment2,"CV word
+tones",218,right,0.38333333333333336
+experiment2,"CV word
+tones",219,right,0.40555555555555556
+experiment2,"CV word
+tones",220,right,0.4
+experiment2,"CV word
+tones",221,right,0.35555555555555557
+experiment2,"CV word
+tones",222,right,0.45
+experiment2,"CV word
+tones",223,right,0.37222222222222223
+experiment2,"CV word
+tones",224,right,0.4444444444444444
+experiment2,"CV word
+tones",225,right,0.4722222222222222
+experiment2,"CV word
+tones",226,right,0.31666666666666665
+experiment2,"CV word
+tones",227,right,0.46111111111111114
+experiment2,"CV word
+tones",228,right,0.4444444444444444
+experiment2,"CV word
+tones",229,right,0.3888888888888889
+experiment2,"CV word
+tones",230,right,0.39444444444444443
+experiment2,"CV Pseudo-word
+tones",211,right,0.38333333333333336
+experiment2,"CV Pseudo-word
+tones",212,right,0.4166666666666667
+experiment2,"CV Pseudo-word
+tones",213,right,0.4111111111111111
+experiment2,"CV Pseudo-word
+tones",214,right,0.4166666666666667
+experiment2,"CV Pseudo-word
+tones",215,right,0.2222222222222222
+experiment2,"CV Pseudo-word
+tones",216,right,0.6833333333333333
+experiment2,"CV Pseudo-word
+tones",217,right,0.4166666666666667
+experiment2,"CV Pseudo-word
+tones",218,right,0.45
+experiment2,"CV Pseudo-word
+tones",219,right,0.49444444444444446
+experiment2,"CV Pseudo-word
+tones",220,right,0.6888888888888889
+experiment2,"CV Pseudo-word
+tones",221,right,0.31666666666666665
+experiment2,"CV Pseudo-word
+tones",222,right,0.4444444444444444
+experiment2,"CV Pseudo-word
+tones",223,right,0.45555555555555555
+experiment2,"CV Pseudo-word
+tones",224,right,0.24444444444444444
+experiment2,"CV Pseudo-word
+tones",225,right,0.4444444444444444
+experiment2,"CV Pseudo-word
+tones",226,right,0.28888888888888886
+experiment2,"CV Pseudo-word
+tones",227,right,0.4111111111111111
+experiment2,"CV Pseudo-word
+tones",228,right,0.4111111111111111
+experiment2,"CV Pseudo-word
+tones",229,right,0.5611111111111111
+experiment2,"CV Pseudo-word
+tones",230,right,0.2833333333333333
+experiment2,"Hummed
+tones",211,right,0.42777777777777776
+experiment2,"Hummed
+tones",212,right,0.32222222222222224
+experiment2,"Hummed
+tones",213,right,0.3888888888888889
+experiment2,"Hummed
+tones",214,right,0.45555555555555555
+experiment2,"Hummed
+tones",215,right,0.28888888888888886
+experiment2,"Hummed
+tones",216,right,0.35555555555555557
+experiment2,"Hummed
+tones",217,right,0.49444444444444446
+experiment2,"Hummed
+tones",218,right,0.3388888888888889
+experiment2,"Hummed
+tones",219,right,0.3333333333333333
+experiment2,"Hummed
+tones",220,right,0.3
+experiment2,"Hummed
+tones",221,right,0.5055555555555555
+experiment2,"Hummed
+tones",222,right,0.3
+experiment2,"Hummed
+tones",223,right,0.35555555555555557
+experiment2,"Hummed
+tones",224,right,0.29444444444444445
+experiment2,"Hummed
+tones",225,right,0.5555555555555556
+experiment2,"Hummed
+tones",226,right,0.12777777777777777
+experiment2,"Hummed
+tones",227,right,0.42777777777777776
+experiment2,"Hummed
+tones",228,right,0.35555555555555557
+experiment2,"Hummed
+tones",229,right,0.49444444444444446
+experiment2,"Hummed
+tones",230,right,0.4
+experiment2,"Simple voxel
+tones",211,right,0.4722222222222222
+experiment2,"Simple voxel
+tones",212,right,0.5111111111111111
+experiment2,"Simple voxel
+tones",213,right,0.49444444444444446
+experiment2,"Simple voxel
+tones",214,right,0.45555555555555555
+experiment2,"Simple voxel
+tones",215,right,0.2777777777777778
+experiment2,"Simple voxel
+tones",216,right,0.45
+experiment2,"Simple voxel
+tones",217,right,0.5166666666666667
+experiment2,"Simple voxel
+tones",218,right,0.13333333333333333
+experiment2,"Simple voxel
+tones",219,right,0.4777777777777778
+experiment2,"Simple voxel
+tones",220,right,0.37777777777777777
+experiment2,"Simple voxel
+tones",221,right,0.43333333333333335
+experiment2,"Simple voxel
+tones",222,right,0.37777777777777777
+experiment2,"Simple voxel
+tones",223,right,0.48333333333333334
+experiment2,"Simple voxel
+tones",224,right,0.45555555555555555
+experiment2,"Simple voxel
+tones",225,right,0.5555555555555556
+experiment2,"Simple voxel
+tones",226,right,0.4222222222222222
+experiment2,"Simple voxel
+tones",227,right,0.22777777777777777
+experiment2,"Simple voxel
+tones",228,right,0.4166666666666667
+experiment2,"Simple voxel
+tones",229,right,0.37777777777777777
+experiment2,"Simple voxel
+tones",230,right,0.5388888888888889

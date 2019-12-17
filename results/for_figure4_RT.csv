@@ -1,0 +1,321 @@
+experiment,condition,sub_name,side,RT
+experiment2,"Hummed
+tones",211,left,1.9813619614214983
+experiment2,"Hummed
+tones",212,left,1.845054525998421
+experiment2,"Hummed
+tones",213,left,1.9927351067599373
+experiment2,"Hummed
+tones",214,left,2.2097689416841604
+experiment2,"Hummed
+tones",215,left,1.6125869626412168
+experiment2,"Hummed
+tones",216,left,1.4783918257162443
+experiment2,"Hummed
+tones",217,left,1.2285938981804063
+experiment2,"Hummed
+tones",218,left,1.6363375842042842
+experiment2,"Hummed
+tones",219,left,1.801110116488417
+experiment2,"Hummed
+tones",220,left,1.728182147373445
+experiment2,"Hummed
+tones",221,left,1.4400236571673304
+experiment2,"Hummed
+tones",222,left,1.490361531963572
+experiment2,"Hummed
+tones",223,left,1.4118438511504792
+experiment2,"Hummed
+tones",224,left,2.0315304899122566
+experiment2,"Hummed
+tones",225,left,1.4890256845101248
+experiment2,"Hummed
+tones",226,left,1.3063760495570025
+experiment2,"Hummed
+tones",227,left,2.046499999531079
+experiment2,"Hummed
+tones",228,left,2.6478994801291265
+experiment2,"Hummed
+tones",229,left,1.9466721041535495
+experiment2,"Hummed
+tones",230,left,1.365652555890847
+experiment2,"Hummed
+tones",211,right,1.8992915357957827
+experiment2,"Hummed
+tones",212,right,1.8294353743258398
+experiment2,"Hummed
+tones",213,right,2.0567643754329765
+experiment2,"Hummed
+tones",214,right,2.00700237439014
+experiment2,"Hummed
+tones",215,right,1.6185968521167524
+experiment2,"Hummed
+tones",216,right,1.5522427002288168
+experiment2,"Hummed
+tones",217,right,1.1848857277364004
+experiment2,"Hummed
+tones",218,right,1.5759911170152918
+experiment2,"Hummed
+tones",219,right,1.7863700903581048
+experiment2,"Hummed
+tones",220,right,1.8048865716409637
+experiment2,"Hummed
+tones",221,right,1.5159209601697512
+experiment2,"Hummed
+tones",222,right,1.6617278264893685
+experiment2,"Hummed
+tones",223,right,1.535074574931059
+experiment2,"Hummed
+tones",224,right,2.328834002430085
+experiment2,"Hummed
+tones",225,right,1.3506960358499782
+experiment2,"Hummed
+tones",226,right,1.449034613702679
+experiment2,"Hummed
+tones",227,right,2.1337880880746525
+experiment2,"Hummed
+tones",228,right,2.48974861370516
+experiment2,"Hummed
+tones",229,right,2.1387174132978544
+experiment2,"Hummed
+tones",230,right,1.520792714029085
+experiment2,"Simple voxel
+tones",211,left,2.528470549295889
+experiment2,"Simple voxel
+tones",212,left,1.940404526045313
+experiment2,"Simple voxel
+tones",213,left,2.620459602068877
+experiment2,"Simple voxel
+tones",214,left,2.207814883964602
+experiment2,"Simple voxel
+tones",215,left,1.7396056142169982
+experiment2,"Simple voxel
+tones",216,left,1.4264478870318271
+experiment2,"Simple voxel
+tones",217,left,1.2956735402840422
+experiment2,"Simple voxel
+tones",218,left,1.3786285577564286
+experiment2,"Simple voxel
+tones",219,left,1.7949376353280968
+experiment2,"Simple voxel
+tones",220,left,1.7270804340514587
+experiment2,"Simple voxel
+tones",221,left,1.4828679570346142
+experiment2,"Simple voxel
+tones",222,left,1.7417378717800602
+experiment2,"Simple voxel
+tones",223,left,1.2510110264411196
+experiment2,"Simple voxel
+tones",224,left,1.6448105133604258
+experiment2,"Simple voxel
+tones",225,left,1.438739607892785
+experiment2,"Simple voxel
+tones",226,left,1.34559175153845
+experiment2,"Simple voxel
+tones",227,left,1.766763923194958
+experiment2,"Simple voxel
+tones",228,left,3.0189101794094313
+experiment2,"Simple voxel
+tones",229,left,1.8931447131908496
+experiment2,"Simple voxel
+tones",230,left,1.412336815672461
+experiment2,"Simple voxel
+tones",211,right,2.6340637569664977
+experiment2,"Simple voxel
+tones",212,right,1.8087000712839654
+experiment2,"Simple voxel
+tones",213,right,2.5202437817351893
+experiment2,"Simple voxel
+tones",214,right,2.2067640065797605
+experiment2,"Simple voxel
+tones",215,right,1.7131379493512213
+experiment2,"Simple voxel
+tones",216,right,1.4412382680457083
+experiment2,"Simple voxel
+tones",217,right,1.2987637999176511
+experiment2,"Simple voxel
+tones",218,right,1.3691685768910702
+experiment2,"Simple voxel
+tones",219,right,1.9396856059793208
+experiment2,"Simple voxel
+tones",220,right,1.7502983606391354
+experiment2,"Simple voxel
+tones",221,right,1.3986645053664688
+experiment2,"Simple voxel
+tones",222,right,1.7509398240072187
+experiment2,"Simple voxel
+tones",223,right,1.274478321895003
+experiment2,"Simple voxel
+tones",224,right,1.7432571777608246
+experiment2,"Simple voxel
+tones",225,right,1.3941861289349617
+experiment2,"Simple voxel
+tones",226,right,1.428976054492523
+experiment2,"Simple voxel
+tones",227,right,1.7689019205863588
+experiment2,"Simple voxel
+tones",228,right,2.9547056308365427
+experiment2,"Simple voxel
+tones",229,right,1.9488368825986986
+experiment2,"Simple voxel
+tones",230,right,1.5519253362435848
+experiment2,"CV Pseudo-word
+tones",211,left,2.2520585361016856
+experiment2,"CV Pseudo-word
+tones",212,left,1.5873652245500125
+experiment2,"CV Pseudo-word
+tones",213,left,1.4118961304193365
+experiment2,"CV Pseudo-word
+tones",214,left,1.830358440085547
+experiment2,"CV Pseudo-word
+tones",215,left,1.5261604029219598
+experiment2,"CV Pseudo-word
+tones",216,left,1.615540700688143
+experiment2,"CV Pseudo-word
+tones",217,left,1.3961533243418671
+experiment2,"CV Pseudo-word
+tones",218,left,1.3880885386213322
+experiment2,"CV Pseudo-word
+tones",219,left,1.9392558255312906
+experiment2,"CV Pseudo-word
+tones",220,left,1.942649968521437
+experiment2,"CV Pseudo-word
+tones",221,left,1.5514035057858564
+experiment2,"CV Pseudo-word
+tones",222,left,1.4775221617601346
+experiment2,"CV Pseudo-word
+tones",223,left,2.413579490617849
+experiment2,"CV Pseudo-word
+tones",224,left,2.1580780603108
+experiment2,"CV Pseudo-word
+tones",225,left,1.734949585792492
+experiment2,"CV Pseudo-word
+tones",226,left,1.4850595165626146
+experiment2,"CV Pseudo-word
+tones",227,left,1.7802641610323915
+experiment2,"CV Pseudo-word
+tones",228,left,2.2076022388646384
+experiment2,"CV Pseudo-word
+tones",229,left,1.7303984032478184
+experiment2,"CV Pseudo-word
+tones",230,left,1.459814886446111
+experiment2,"CV Pseudo-word
+tones",211,right,2.3657126930556838
+experiment2,"CV Pseudo-word
+tones",212,right,1.4716907787369564
+experiment2,"CV Pseudo-word
+tones",213,right,1.502445258302032
+experiment2,"CV Pseudo-word
+tones",214,right,1.862700220779516
+experiment2,"CV Pseudo-word
+tones",215,right,1.6443414251552895
+experiment2,"CV Pseudo-word
+tones",216,right,1.445502716436749
+experiment2,"CV Pseudo-word
+tones",217,right,1.4448145699861925
+experiment2,"CV Pseudo-word
+tones",218,right,1.346471037448282
+experiment2,"CV Pseudo-word
+tones",219,right,1.8800899716516144
+experiment2,"CV Pseudo-word
+tones",220,right,1.5374180009384872
+experiment2,"CV Pseudo-word
+tones",221,right,1.5931185093941167
+experiment2,"CV Pseudo-word
+tones",222,right,1.5730899386107922
+experiment2,"CV Pseudo-word
+tones",223,right,2.2567396149388514
+experiment2,"CV Pseudo-word
+tones",224,right,2.1170952871616464
+experiment2,"CV Pseudo-word
+tones",225,right,1.5901159797795117
+experiment2,"CV Pseudo-word
+tones",226,right,1.5735357556404779
+experiment2,"CV Pseudo-word
+tones",227,right,1.6251818949531298
+experiment2,"CV Pseudo-word
+tones",228,right,2.280545442714356
+experiment2,"CV Pseudo-word
+tones",229,right,1.6526020479504953
+experiment2,"CV Pseudo-word
+tones",230,right,1.7147720351349562
+experiment2,"CV word
+tones",211,left,2.7028645508398768
+experiment2,"CV word
+tones",212,left,1.5982871004089247
+experiment2,"CV word
+tones",213,left,1.6755141569301486
+experiment2,"CV word
+tones",214,left,1.479696562164463
+experiment2,"CV word
+tones",215,left,1.3521449480904266
+experiment2,"CV word
+tones",216,left,2.1000070240115747
+experiment2,"CV word
+tones",217,left,1.20529090295895
+experiment2,"CV word
+tones",218,left,1.2897119540866697
+experiment2,"CV word
+tones",219,left,1.92303883002387
+experiment2,"CV word
+tones",220,left,1.539863419617177
+experiment2,"CV word
+tones",221,left,1.5704334785114042
+experiment2,"CV word
+tones",222,left,1.4486628856975583
+experiment2,"CV word
+tones",223,left,1.4019016502134036
+experiment2,"CV word
+tones",224,left,1.864733980386518
+experiment2,"CV word
+tones",225,left,1.4872882810086594
+experiment2,"CV word
+tones",226,left,1.4678439229901414
+experiment2,"CV word
+tones",227,left,1.3065389812691135
+experiment2,"CV word
+tones",228,left,2.2806915359687987
+experiment2,"CV word
+tones",229,left,1.8043100564391352
+experiment2,"CV word
+tones",230,left,1.4125536303035915
+experiment2,"CV word
+tones",211,right,2.6506824688985944
+experiment2,"CV word
+tones",212,right,1.5863039234100142
+experiment2,"CV word
+tones",213,right,1.6782859200902749
+experiment2,"CV word
+tones",214,right,1.6245261590229347
+experiment2,"CV word
+tones",215,right,1.5940521402517334
+experiment2,"CV word
+tones",216,right,1.7843026539630955
+experiment2,"CV word
+tones",217,right,1.2251665484800471
+experiment2,"CV word
+tones",218,right,1.3786593479976543
+experiment2,"CV word
+tones",219,right,1.8416178860497892
+experiment2,"CV word
+tones",220,right,1.5985624485401786
+experiment2,"CV word
+tones",221,right,1.5436705046449788
+experiment2,"CV word
+tones",222,right,1.5331275732605718
+experiment2,"CV word
+tones",223,right,1.4800083133159203
+experiment2,"CV word
+tones",224,right,1.6409226039249916
+experiment2,"CV word
+tones",225,right,1.3459466411513858
+experiment2,"CV word
+tones",226,right,1.3603253630572
+experiment2,"CV word
+tones",227,right,1.3532593234267551
+experiment2,"CV word
+tones",228,right,2.205794113979209
+experiment2,"CV word
+tones",229,right,1.8497896481130738
+experiment2,"CV word
+tones",230,right,1.516184601583518
