@@ -92,7 +92,7 @@ figure4_csv_name = os.path.join(results_dir,'for_figure4_RT.csv')
 df_figure_4 = df_plot[df_plot['experiment'] == 'experiment2']
 df_figure_4 = pd.concat([df_figure_4[df_figure_4['condition'] == condition] for condition in ['hum','tone','gi','di']])
 df_figure_4.loc[:,'condition'] = df_figure_4['condition'].map({'hum':'Hummed\ntones',
-                                                               'tone':'Simple voxel\ntones',
+                                                               'tone':'Simple vowel\ntones',
                                                                'gi':'CV Pseudo-word\ntones',
                                                                'di':'CV word\ntones'})
 df_figure_4.to_csv(figure4_csv_name,index = False)
@@ -131,7 +131,7 @@ df_figure_5['adjust'] = df_figure_5['condition'].map({'hum':-2,
                                                        'di':2})
 df_figure_5['adjust_LI'] = df_figure_5['LI'] * df_figure_5['adjust']
 df_figure_5.loc[:,'condition'] = df_figure_5['condition'].map({'hum':'Hummed\ntones',
-                                                               'tone':'Simple voxel\ntones',
+                                                               'tone':'Simple vowel\ntones',
                                                                'gi':'CV Pseudo-word\ntones',
                                                                'di':'CV word\ntones'})
 df_figure_5.to_csv(figure5_csv_name,index = False)
