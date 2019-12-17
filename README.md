@@ -11,7 +11,7 @@ Multiple comparisons were corrected by BH-FDR
 *:p < 0.05, **: p < 0.01
 
 # Figure 4
-![fig4](https://github.com/nmningmei/dichotic-listening-of-tones-is-influenced-by-the-content-of-speech/blob/master/figures/figure4.jpeg)
+![fig4](https://github.com/nmningmei/dichotic-listening-of-tones-is-influenced-by-the-content-of-speech/blob/master/figures/figure%204.jpeg)
 
 
 there was a main effect of condition, F(3,57) = 9.8560, p = 0.0000, corrected p = 0.0001, eta sqaure = 0.3420
@@ -33,7 +33,7 @@ tones
 t(19) = -2.661, p = 0.0154, corrected p = 0.0925
 
 # Figure 5
-![fig5](https://github.com/nmningmei/dichotic-listening-of-tones-is-influenced-by-the-content-of-speech/blob/master/figures/figure5.jpeg)
+![fig5](https://github.com/nmningmei/dichotic-listening-of-tones-is-influenced-by-the-content-of-speech/blob/master/figures/figure%205.jpeg)
 
 
 We applied a cross-validation procedure to estimate the linear trend of the relation between the conditions and LI. 
