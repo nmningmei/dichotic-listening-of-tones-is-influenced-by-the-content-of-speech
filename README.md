@@ -3,11 +3,19 @@
 # Figure 3
 ![fig3](https://github.com/nmningmei/dichotic-listening-of-tones-is-influenced-by-the-content-of-speech/blob/master/figures/figure%203.jpeg)
 
+we apply ANOVA on CR
 there was no main effect of experiment, F(1,41) = 0.000, p = 1.000000, eta square = 0.0
 
 there was a main effect of side of ears, F(1,41) = 9.897, p = 0.003079, eta square = 0.194
 
 there was no main effect of interaction, F(1,41) = 0.189, p = 0.666131, eta square = 0.005
+
+we apply ANOVA on RT
+there was no main effect of experiment, F(1,41) = 0.060, p = 0.807731, eta square = 0.001
+
+there was no main effect of side of ears, F(1,41) = 0.382, p = 0.540013, eta square = 0.009
+
+there was no main effect of interaction, F(1,41) = 1.517, p = 0.225125, eta square = 0.036
 
 A post-hoc comparison between the left and right ear effect within each experiment showed that there were significant differences between the left ear and right ear in each experiment.
 
@@ -31,6 +39,13 @@ there was a main effect of condition, F(3,57) = 9.8560, p = 0.0000, corrected p 
 there was a main effect of side of ears, F(1,19) = 4.6410, p = 0.0443, corrected p = 0.0443, eta sqaure = 0.1960
 
 there was no main effect of interaction, F(3,57) = 1.1930, p = 0.3204, corrected p = 0.3177, eta sqaure = 0.0590
+
+Apply ANOVA on RT
+there was no main effect of condition, F(3,57) = 1.3920, p = 0.2546, corrected p = 0.2604, eta sqaure = 0.0680
+
+there was no main effect of side of ears, F(1,19) = 0.1490, p = 0.7033, corrected p = 0.7033, eta sqaure = 0.0080
+
+there was no main effect of interaction, F(3,57) = 0.8790, p = 0.4575, corrected p = 0.4413, eta sqaure = 0.0440
 
 From a post-hoc comparison within each main effect:
 
