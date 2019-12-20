@@ -36,7 +36,7 @@ order_x = ['Hummed\ntones',
            'CV Pseudo-word\ntones',
            'CV word\ntones']
 figures_dir     = '../figures'
-dpi = 100
+dpi = 500
 replacement = {"experiment":"experiment",
                "side":"side of ears",
                "condition":"condition",
@@ -126,7 +126,7 @@ ax = sns.barplot(y = 'correct_rate',
                  ax = ax,
                  **args)
 ax.set(ylim =(0,0.65),
-       ylabel = 'CR',
+       ylabel = 'CR (Proportion)',
        xlabel = '',)
 ax.annotate("", xy=(-.2, line_height), 
             xytext=(.2, line_height), 
@@ -256,7 +256,7 @@ ax = sns.barplot(
                  )
 ax.set(xlabel = '',
        xticklabels = [],
-       ylabel = 'CR',
+       ylabel = 'CR (proportion)',
        ylim = (0,0.67),
        )
 ax.legend(loc = 'upper right')
@@ -271,7 +271,8 @@ ax = sns.barplot(
                  **args
                  )
 ax.set(xlabel = '',
-       ylabel = "RT")
+       ylabel = "RT (sec)",
+       ylim = (0,2.7))
 ax.set_xticklabels(ax.xaxis.get_majorticklabels(),
                    rotation = -35, 
                    ha = 'center',
