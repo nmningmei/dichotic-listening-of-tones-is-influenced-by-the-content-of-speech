@@ -58,8 +58,8 @@ for f in working_data:
     results['experiment'].append(experiment)
     results['condition' ].append(condition)
     results['sub_name'  ].append(sub_name)
-    results['LEA'       ].append(temp['left_correct'].sum() / temp.shape[0])
-    results['REA'       ].append(temp['right_correct'].sum() / temp.shape[0])
+    results['LEA'       ].append(temp['left_correct'].sum() / (temp['left_correct'].sum()+temp['right_correct'].sum()))
+    results['REA'       ].append(temp['right_correct'].sum() / (temp['left_correct'].sum()+temp['right_correct'].sum()))
 
 
 results         = pd.DataFrame(results)
@@ -145,8 +145,8 @@ text_args = dict(weight                 = 'bold',
 fig,axes = plt.subplots(figsize = (16,8),ncols = 2,) # define the figure with 2 columns subplots
 # subplot (2,1,1) --> correct rate ~ experiment * side
 ax          = axes[0]
-line_height = .55
-text_height = .6
+line_height = .6
+text_height = .65
 ax          = sns.barplot(y     = 'correct_rate',
                           data  = df_figure_3,
                           ax    = ax,
@@ -159,7 +159,7 @@ ax.annotate("",
             xytext  = (.2,  line_height), 
             **annotate_args)
 ax.text(0,
-        .6,
+        text_height,
         "*",
         **text_args)
 ax.annotate("",
@@ -183,9 +183,9 @@ ax.set(ylim     = (0,2.7),
 ax.legend(loc   = 'upper right')
 sns.despine()
 fig.tight_layout()
-fig.savefig(os.path.join(figures_dir,'figure 3.jpeg'),
-            dpi         = dpi,
-            bbox_inches = 'tight',)
+#fig.savefig(os.path.join(figures_dir,'figure 3.jpeg'),
+#            dpi         = dpi,
+#            bbox_inches = 'tight',)
 
 
 # plot figure 4
@@ -312,9 +312,10 @@ ax.set_xticklabels(ax.xaxis.get_majorticklabels(),
                    weight   = 'bold')
 ax.get_legend().remove()
 sns.despine()
-fig.savefig('../figures/figure4.jpeg',
-            dpi         = dpi,
-            bbox_inches = 'tight',)
+
+#fig.savefig('../figures/figure4.jpeg',
+#            dpi         = dpi,
+#            bbox_inches = 'tight',)
 
 # plot figure 5
 figure5_csv_name                = os.path.join(results_dir,'for_figure5.csv')
@@ -402,6 +403,6 @@ ax.set_xticklabels(ax.xaxis.get_majorticklabels(),
                    ha       = 'center',
                    weight   = 'bold')
 sns.despine()
-fig.savefig('../figures/figure5.jpeg',
-            dpi         = dpi,
-            bbox_inches = 'tight')
+#fig.savefig('../figures/figure5.jpeg',
+#            dpi         = dpi,
+#            bbox_inches = 'tight')

@@ -15,6 +15,8 @@ import numpy as np
 
 working_dir = '../data'
 data_dir = '../data/results_all'
+if not os.path.exists(data_dir):
+    os.mkdir(data_dir)
 working_data = glob(os.path.join(working_dir,'*','Dichotic*.mat'))
 
 df_file = dict(experiment = [],
@@ -22,6 +24,7 @@ df_file = dict(experiment = [],
                sub_name = [],
                file_to_read = [],)
 for ii,f in enumerate(working_data):
+    f = f.replace('\\','/')
     temp = f.split('/')
     experiment = 1 if temp[2] == 'result' else 2
     df_file['experiment'].append(experiment)
@@ -48,13 +51,14 @@ for ii,row in df_file.iterrows():
     right = temp[4][0]
     order = temp[-1][0]
     for left_,right_,responses_,RT_ in zip(left,right,responses,RT):
-        results['experiment'].append(row['experiment'])
-        results['condition'].append(row['condition'])
-        results['sub_name'].append(row['sub_name'])
-        results['left'].append(left_)
-        results['right'].append(right_)
-        results['response'].append(responses_)
-        results['RT'].append(RT_)
+        if (RT_ > 0) or (RT_ < 9):
+            results['experiment'].append(row['experiment'])
+            results['condition'].append(row['condition'])
+            results['sub_name'].append(row['sub_name'])
+            results['left'].append(left_)
+            results['right'].append(right_)
+            results['response'].append(responses_)
+            results['RT'].append(RT_)
     results_to_save = pd.DataFrame(results)
     results_to_save.to_csv(os.path.join(data_dir,
                                         f'experiment{row["experiment"]}_{row["condition"]}_{row["sub_name"]}.csv'),

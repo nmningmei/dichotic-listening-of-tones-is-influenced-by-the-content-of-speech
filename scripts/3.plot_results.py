@@ -36,7 +36,7 @@ order_x = ['Hummed\ntones',
            'CV Pseudo-word\ntones',
            'CV word\ntones']
 figures_dir     = '../figures'
-dpi = 500
+dpi = 100
 replacement = {"experiment":"experiment",
                "side":"side of ears",
                "condition":"condition",
@@ -119,8 +119,8 @@ text_args = dict(weight = 'bold',
 fig,axes = plt.subplots(figsize = (16,8),ncols = 2,) # define the figure with 2 columns subplots
 # subplot (2,1,1) --> correct rate ~ experiment * side
 ax = axes[0]
-line_height = .55
-text_height = .6
+line_height = .6
+text_height = .65
 ax = sns.barplot(y = 'correct_rate',
                  data = df_figure_3,
                  ax = ax,
@@ -131,7 +131,7 @@ ax.set(ylim =(0,0.65),
 ax.annotate("", xy=(-.2, line_height), 
             xytext=(.2, line_height), 
             **annotate_args)
-ax.text(0, .6, "*",
+ax.text(0, text_height, "**",
        **text_args)
 ax.annotate("", xy=(1-.2, line_height),
             xytext=(1+.2, line_height), 
@@ -257,7 +257,7 @@ ax = sns.barplot(
 ax.set(xlabel = '',
        xticklabels = [],
        ylabel = 'CR (proportion)',
-       ylim = (0,0.67),
+       ylim = (0,0.7),
        )
 ax.legend(loc = 'upper right')
 sns.despine()

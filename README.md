@@ -6,9 +6,9 @@
 we apply ANOVA on CR
 there was no main effect of experiment, F(1,41) = 0.000, p = 1.000000, eta square = 0.0
 
-there was a main effect of side of ears, F(1,41) = 9.897, p = 0.003079, eta square = 0.194
+there was a main effect of side of ears, F(1,41) = 11.129, p = 0.001813, eta square = 0.213
 
-there was no main effect of interaction, F(1,41) = 0.189, p = 0.666131, eta square = 0.005
+there was no main effect of interaction, F(1,41) = 0.219, p = 0.641934, eta square = 0.005
 
 we apply ANOVA on RT
 there was no main effect of experiment, F(1,41) = 0.060, p = 0.807731, eta square = 0.001
@@ -19,9 +19,9 @@ there was no main effect of interaction, F(1,41) = 1.517, p = 0.225125, eta squa
 
 A post-hoc comparison between the left and right ear effect within each experiment showed that there were significant differences between the left ear and right ear in each experiment.
 
-experiment 1 t(21) = 2.368, p = 0.0223, corrected p = 0.0223
+experiment 1 t(21) = 3.143, p = 0.0030, corrected p = 0.0030
 
-experiment 2 t(18) = 2.851, p = 0.0070, corrected p = 0.0140
+experiment 2 t(18) = 3.532, p = 0.0011, corrected p = 0.0022
 
 Multiple comparisons were corrected by BH-FDR
 *:p < 0.05, **: p < 0.01
@@ -34,11 +34,11 @@ Multiple comparisons were corrected by BH-FDR
 
 Apply a repeated measured ANOVA on correct rate as a factor of codition and side of ears in experiment 2
 
-there was a main effect of condition, F(3,57) = 9.8560, p = 0.0000, corrected p = 0.0001, eta sqaure = 0.3420
+there was no main effect of condition, F(3,57) = -0.0000, p = 1.0000, corrected p = 1.0000, eta sqaure = -0.0000
 
-there was a main effect of side of ears, F(1,19) = 4.6410, p = 0.0443, corrected p = 0.0443, eta sqaure = 0.1960
+there was a main effect of side of ears, F(1,19) = 5.4480, p = 0.0307, corrected p = 0.0307, eta sqaure = 0.2230
 
-there was no main effect of interaction, F(3,57) = 1.1930, p = 0.3204, corrected p = 0.3177, eta sqaure = 0.0590
+there was no main effect of interaction, F(3,57) = 1.2250, p = 0.3089, corrected p = 0.3080, eta sqaure = 0.0610
 
 Apply ANOVA on RT
 there was no main effect of condition, F(3,57) = 1.3920, p = 0.2546, corrected p = 0.2604, eta sqaure = 0.0680
@@ -49,25 +49,10 @@ there was no main effect of interaction, F(3,57) = 0.8790, p = 0.4575, corrected
 
 From a post-hoc comparison within each main effect:
 
-there was a significant difference between left and right, t(79) = 2.494, p = 0.014711, corrected p = nan
-
-there was a significant difference between Hummed
-tones and Simple vowel
-tones, t(39) = -2.214, p = 0.032729, corrected p = 0.1035
-
-there was a significant difference between CV word
-tones and Simple vowel
-tones, t(39) = -2.191, p = 0.034498, corrected p = 0.1035
+there was a significant difference between left and right, t(79) = 2.691, p = 0.008698, corrected p = nan
 
 we apply a repeated measure ANOVA on LEA as a factor of condition
-there was a main effect of condition, F(3,57) = 3.547, p = 0.0200, eta square = 0.1570
 From a post-hoc test comparison between each pair of conditions
-
-there was a marginally significant difference between CV word
-tones and Simple vowel
-tones
-
-t(19) = -2.661, p = 0.0154, corrected p = 0.0925
 
 
 
