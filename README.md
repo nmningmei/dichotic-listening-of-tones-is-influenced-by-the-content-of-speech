@@ -19,9 +19,9 @@ there was no main effect of interaction, F(1,41) = 1.517, p = 0.225125, eta squa
 
 A post-hoc comparison between the left and right ear effect within each experiment showed that there were significant differences between the left ear and right ear in each experiment.
 
-experiment 1 t(21) = 3.143, p = 0.0030, corrected p = 0.0030
+experiment 1 t(22) = 3.143, p = 0.0030, corrected p = 0.0030
 
-experiment 2 t(18) = 3.532, p = 0.0011, corrected p = 0.0022
+experiment 2 t(19) = 3.532, p = 0.0011, corrected p = 0.0022
 
 Multiple comparisons were corrected by BH-FDR
 *:p < 0.05, **: p < 0.01

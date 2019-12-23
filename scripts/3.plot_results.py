@@ -94,7 +94,7 @@ empty += "A post-hoc comparison between the left and right ear effect within eac
 for ii,row in posthoc3.iterrows():
     if row['sig'] != 'n.s.':
         print(f"{row['experiment']} t({int(row['dof']/2)}) = {row['T']:.3f}, p = {row['p-unc']:.4f}, corrected p = {row['p-corr']:.4f}")
-        empty += f"{replacement[row['experiment']]} t({int(row['dof']/2-1)}) = {row['T']:.3f}, p = {row['p-unc']:.4f}, corrected p = {row['p-corr']:.4f}\n\n"
+        empty += f"{replacement[row['experiment']]} t({int(row['dof']/2)}) = {row['T']:.3f}, p = {row['p-unc']:.4f}, corrected p = {row['p-corr']:.4f}\n\n"
 
 empty += "Multiple comparisons were corrected by BH-FDR\n*:p < 0.05, **: p < 0.01\n\n"
 fig3_summary = f'{empty}'
