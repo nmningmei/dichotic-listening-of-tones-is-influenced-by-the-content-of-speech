@@ -21,6 +21,7 @@ sns.set_style('white')
 sns.set_context('poster')
 plt.rcParams["font.weight"] = "bold"
 plt.rcParams["axes.labelweight"] = "bold"
+plt.rcParams['axes.linewidth'] = 5
 
 def star(x):
     if x < 0.001:
@@ -336,54 +337,64 @@ c = pd.DataFrame(dict(experiment = ['experiment2'] * len(LI),
          ))
 #df_figure_5_concat = pd.concat([df_figure_5,c])
 
-fig,ax = plt.subplots(figsize = (16,8),)
-ax = sns.pointplot(x = 'condition',
-                   order = order_x,
-                   y = 'LI',
-                   data = df_figure_5,
-                   ax = ax,
-                   markers = '.',
-                   capsize = .1,
-                   color = 'black',
-                   alpha = 0.4,)
-ax.errorbar(x = 4,
-            y = LI.mean(),
-            yerr = LI.std()/np.sqrt(len(LI)),
-            color = 'black',
-            lw = 5.5,
-            capsize = 12,
-            capthick = 5,)
-ax.scatter(4,LI.mean(),
-           s = 60)
-xx = np.linspace(0,3,100)
+fig,ax = plt.subplots(figsize = (10,8),)
+xx = np.linspace(-0.05,3.05,100)
 yy = np.dot(xx.reshape(-1,1),weights.reshape(1,-1)) + intercepts
 yy_upper = yy.max(1)
 yy_lower = yy.min(1)
 ax.plot(xx,yy.mean(1),
         color = 'black',
         linestyle = '--',
-        label = 'estimated trend (mean)')
+        label = 'estimated trend (mean)',
+        alpha = 0.3,)
 ax.fill_between(xx,
                 yy_upper,
                 yy_lower,
                 color = 'red',
                 label = 'estimated trend (SE)',
                 )
+ax.scatter(np.arange(4),
+           y = df_figure_5.groupby('condition').mean()['LI'].values[[2,3,0,1]],
+           s = 70,
+           color = 'black',
+           alpha = 1.,)
+ax.errorbar(x = np.arange(4),
+            y = df_figure_5.groupby('condition').mean()['LI'].values[[2,3,0,1]],
+            yerr = df_figure_5.groupby('condition').std()['LI'].values[[2,3,0,1]]/np.sqrt(20),
+            color = 'black',
+            lw = 5.5,
+            capsize = 12,
+            capthick = 5,
+            linestyle = '',)
+ax.errorbar(x = 4.5,
+            y = LI.mean(),
+            yerr = LI.std()/np.sqrt(len(LI)),
+            color = 'black',
+            lw = 5.5,
+            capsize = 12,
+            capthick = 5,)
+ax.scatter(4.5,LI.mean(),
+           s = 70,
+           color = 'black',
+           alpha = 1.,)
 ax.annotate('***',
-            xy = (1.5,0.2),
+            xy = (1.5,0.12),
             size = 36,
             weight = 'bold')
 ax.legend(loc = 'upper right')
 ax.set(xlabel = '',
        ylabel = 'LI',
        ylim = (-0.15,0.25),
-       xticks = np.arange(5),
-       xticklabels = np.concatenate([order_x,['Complex word\ntones (Wang et al., 2001)']]))
+       xticks = np.concatenate([np.arange(4),[4.5]]),
+       xticklabels = np.concatenate([order_x,['Complex word\ntones (Wang et al., 2001)']]),
+       yticks = [-0.1,0,0.1,0.2])
 ax.set_xticklabels(ax.xaxis.get_majorticklabels(),
                    rotation = -35, 
                    ha = 'center',
                    weight = 'bold')
 sns.despine()
+ax.axhline(0,linestyle = '--',color = 'red',
+           lw = 4,)
 fig.savefig(os.path.join(figures_dir,
                         'figure 5.jpeg'),
            dpi = dpi,
