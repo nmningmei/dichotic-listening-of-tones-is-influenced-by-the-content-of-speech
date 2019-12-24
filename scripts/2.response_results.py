@@ -48,6 +48,7 @@ results = dict(experiment   = [],
                sub_name     = [],
                LEA          = [],
                REA          = [],
+               excluded     = [],
                )
 for f in working_data:
     f                               = f.replace('\\','/')
@@ -60,7 +61,7 @@ for f in working_data:
     results['sub_name'  ].append(sub_name)
     results['LEA'       ].append(temp['left_correct'].sum() / (temp['left_correct'].sum()+temp['right_correct'].sum()))
     results['REA'       ].append(temp['right_correct'].sum() / (temp['left_correct'].sum()+temp['right_correct'].sum()))
-
+    results['excluded'  ].append(temp.shape[0] - (temp['left_correct'].sum()+temp['right_correct'].sum()))
 
 results         = pd.DataFrame(results)
 results['LI']   = (results['LEA'] - results['REA']) / (results['LEA'] + results['REA'])

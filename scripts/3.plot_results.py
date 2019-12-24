@@ -320,6 +320,21 @@ On figure 5, we showed the average estimated linear regression function by a dot
 """
 print(fig5_summary.replace('\n',''))
 
+Left = np.array([44,61,22,34,36,42,43,44,75,16,48,38,75,24,35,48,42,25,11,26])
+Right = np.array([6,20,10,19,21,24,27,29,54,13,40,33,69,23,34,53,50,33,18,54])
+total = np.array([86,107,189,148,172,174,111,108,146,165,140,94,162,157,106,127,181,163,159,107,])
+LEA = (total - Left) / total
+REA = (total - Right) / total
+LI = (LEA - REA) / (LEA + REA)
+c = pd.DataFrame(dict(experiment = ['experiment2'] * len(LI),
+         condition = ['Complex word\ntones (Wang et al., 2001)'] * len(LI),
+         sub_name = np.arange(len(LI)),
+         LEA = LEA,
+         REA = REA,
+         LI = LI,
+         n_condition = [4] * len(LI),
+         ))
+#df_figure_5_concat = pd.concat([df_figure_5,c])
 
 fig,ax = plt.subplots(figsize = (16,8),)
 ax = sns.pointplot(x = 'condition',
@@ -331,6 +346,15 @@ ax = sns.pointplot(x = 'condition',
                    capsize = .1,
                    color = 'black',
                    alpha = 0.4,)
+ax.errorbar(x = 4,
+            y = LI.mean(),
+            yerr = LI.std()/np.sqrt(len(LI)),
+            color = 'black',
+            lw = 5.5,
+            capsize = 12,
+            capthick = 5,)
+ax.scatter(4,LI.mean(),
+           s = 60)
 xx = np.linspace(0,3,100)
 yy = np.dot(xx.reshape(-1,1),weights.reshape(1,-1)) + intercepts
 yy_upper = yy.max(1)
@@ -352,7 +376,9 @@ ax.annotate('***',
 ax.legend(loc = 'upper right')
 ax.set(xlabel = '',
        ylabel = 'LI',
-       ylim = (-0.1,0.25),)
+       ylim = (-0.15,0.25),
+       xticks = np.arange(5),
+       xticklabels = np.concatenate([order_x,['Complex word\ntones (Wang et al., 2001)']]))
 ax.set_xticklabels(ax.xaxis.get_majorticklabels(),
                    rotation = -35, 
                    ha = 'center',
