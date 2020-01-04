@@ -117,7 +117,7 @@ text_args = dict(weight = 'bold',
                  verticalalignment='center',
                  size = 36,)
 
-fig,axes = plt.subplots(figsize = (16,8),ncols = 2,) # define the figure with 2 columns subplots
+fig,axes = plt.subplots(figsize = (10,8),ncols = 2,) # define the figure with 2 columns subplots
 # subplot (2,1,1) --> correct rate ~ experiment * side
 ax = axes[0]
 line_height = .6
@@ -126,6 +126,7 @@ ax = sns.barplot(y = 'correct_rate',
                  data = df_figure_3,
                  ax = ax,
                  **args)
+#utils.change_width(ax,.35)
 ax.set(ylim =(0,0.65),
        ylabel = 'CR (Proportion)',
        xlabel = '',)
@@ -147,6 +148,7 @@ ax = sns.barplot(y = 'RT',
                  data = df_figure_3_RT,
                  ax = ax,
                  **args)
+#utils.change_width(ax,.35)
 ax.set(ylim =(0,2.7),
        ylabel = 'RT (sec)',
        xlabel = '',)
@@ -236,7 +238,7 @@ for ii, row in post_rm_LEA_4.iterrows():
 
 fig4_summary = f"{empty}"
 
-fig,axes = plt.subplots(figsize = (16,16),nrows = 2)
+fig,axes = plt.subplots(figsize = (10,20),nrows = 2)
 args = dict(x = 'condition',
             order = order_x,
             capsize = .1,
@@ -255,14 +257,14 @@ ax = sns.barplot(
                  ax = ax,
                  **args
                  )
+#utils.change_width(ax,.35)
 ax.set(xlabel = '',
        xticklabels = [],
        ylabel = 'CR (proportion)',
-       ylim = (0,0.7),
+       ylim = (0,0.65),
        )
-ax.legend(loc = 'upper right')
+ax.get_legend().remove()
 sns.despine()
-
 # RT
 ax = axes[1]
 ax = sns.barplot(
@@ -271,6 +273,7 @@ ax = sns.barplot(
                  ax = ax,
                  **args
                  )
+#utils.change_width(ax,.35)
 ax.set(xlabel = '',
        ylabel = "RT (sec)",
        ylim = (0,2.7))
@@ -278,7 +281,7 @@ ax.set_xticklabels(ax.xaxis.get_majorticklabels(),
                    rotation = -35, 
                    ha = 'center',
                    weight = 'bold')
-ax.get_legend().remove()
+ax.legend(loc = 'upper right')
 sns.despine()
 fig.savefig(os.path.join(figures_dir,
                         'figure 4.jpeg'),
@@ -366,14 +369,14 @@ ax.errorbar(x = np.arange(4),
             capsize = 12,
             capthick = 5,
             linestyle = '',)
-ax.errorbar(x = 4.5,
+ax.errorbar(x = 4,
             y = LI.mean(),
             yerr = LI.std()/np.sqrt(len(LI)),
             color = 'black',
             lw = 5.5,
             capsize = 12,
             capthick = 5,)
-ax.scatter(4.5,LI.mean(),
+ax.scatter(4,LI.mean(),
            s = 70,
            color = 'black',
            alpha = 1.,)
@@ -392,6 +395,8 @@ ax.set_xticklabels(ax.xaxis.get_majorticklabels(),
                    rotation = -35, 
                    ha = 'center',
                    weight = 'bold')
+for label_ in ax.xaxis.get_majorticklabels():
+    label_.set_horizontalalignment('center')
 sns.despine()
 ax.axhline(0,linestyle = '--',color = 'red',
            lw = 4,)
