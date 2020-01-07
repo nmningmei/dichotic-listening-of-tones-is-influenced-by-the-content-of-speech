@@ -248,7 +248,14 @@ args = dict(x = 'condition',
 annotate_args = dict(xycoords='data',
                      textcoords='data',
                      arrowprops=dict(arrowstyle="-", ec='black',
-                                    connectionstyle="bar,fraction=0.02"))
+                                    connectionstyle="bar,fraction=0.3"))
+###### common arguments for adding the stars #######
+text_args = dict(weight = 'bold',
+                 horizontalalignment='center',
+                 verticalalignment='center',
+                 size = 36,)
+line_height = .625
+text_height = .65
 # response
 ax = axes[0]
 ax = sns.barplot(
@@ -263,6 +270,11 @@ ax.set(xlabel = '',
        ylabel = 'CR (proportion)',
        ylim = (0,0.65),
        )
+ax.annotate("", xy=(-.2, line_height), 
+            xytext=(.2, line_height), 
+            **annotate_args)
+ax.text(0, text_height, "*",
+       **text_args)
 ax.get_legend().remove()
 sns.despine()
 # RT

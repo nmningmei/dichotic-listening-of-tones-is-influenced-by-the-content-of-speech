@@ -219,6 +219,22 @@ post_4['sig']   = post_4['p-unc'].apply(star)
 post_4          = post_4.sort_values('p-unc')
 print(post_4[[ 'A', 'B', 'T', 'dof','p-unc', 'p-corr','sig']].iloc[1:,:])
 
+inter_4 = dict(condition = [],
+               t = [],
+               p = [],
+               dof = [],
+               effect_size = [],)
+for condition,df_sub in df_figure_4.groupby(['condition']):
+    left = df_sub[df_sub['side']=='left']['correct_rate'].values
+    right = df_sub[df_sub['side']=='right']['correct_rate'].values
+    temp = pg.ttest(left,right,paired=True,)
+    inter_4['condition'].append(condition)
+    inter_4['t'].append(temp['T'].values[0])
+    inter_4['p'].append(temp['p-val'].values[0])
+    inter_4['dof'].append(temp['dof'].values[0])
+    inter_4['effect_size'].append(temp['cohen-d'].values[0])
+inter_4 = pd.DataFrame(inter_4)
+
 pose_side_4     = dict(condition    = [],
                        t            = [],
                        p            = [],)
