@@ -1,4 +1,4 @@
-# This repository is in responding to "Lateralization in the dichotic listening of tones is influenced by the content of speech"
+# [Mei, N., Flinker, A., Zhu, M., Cai, Q., And Tian, X. (2020). Lateralization in the dichotic listening of tones is influenced by the content of speech. Neuropsychologia](https://www.researchgate.net/publication/339151652_Lateralization_in_the_dichotic_listening_of_tones_is_influenced_by_the_content_of_speech)
 
 # Figure 3
 ![fig3](https://github.com/nmningmei/dichotic-listening-of-tones-is-influenced-by-the-content-of-speech/blob/master/figures/figure%203.jpeg)
